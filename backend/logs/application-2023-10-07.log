@@ -1,0 +1,885 @@
+2023-10-06T21:27:20.455Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T21:27:20.595Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T21:27:29.649Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T21:27:29.671Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T21:28:52.827Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T21:28:52.852Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T22:46:14.533Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T22:46:14.628Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T22:46:38.679Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T22:46:38.695Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T22:47:00.722Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T22:47:00.764Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T22:55:22.829Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T22:55:22.845Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:21:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T22:55:49.561Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T22:55:49.576Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:48:33)
+2023-10-06T23:28:13.694Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T23:28:13.711Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:51:33)
+2023-10-06T23:29:47.226Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T23:29:47.242Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:51:33)
+2023-10-06T23:30:33.375Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T23:30:33.415Z error: Message: User not found, Stack: Error: User not found
+    at UsersRepository.getByEmail (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\users\users.repository.js:20:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.registerJWT (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\AuthController.js:51:33)
+2023-10-06T23:30:51.701Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T23:34:01.836Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T23:34:03.061Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T23:34:11.402Z info: Method: GET, URL: /newsposts
+2023-10-06T23:34:11.410Z warn: Error: Unauthorized
+2023-10-06T23:34:12.676Z info: Method: GET, URL: /newsposts
+2023-10-06T23:34:12.687Z warn: Error: Unauthorized
+2023-10-06T23:34:15.051Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T23:34:26.828Z info: Method: GET, URL: /newsposts
+2023-10-06T23:34:26.831Z error: Message: this.newsposts.getAllPostsPaged is not a function, Stack: TypeError: this.newsposts.getAllPostsPaged is not a function
+    at NewspostsService.getAllPostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:24:35)
+    at NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:42:59)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T23:34:47.038Z info: Method: GET, URL: /newsposts
+2023-10-06T23:35:25.915Z info: Method: GET, URL: /newsposts
+2023-10-06T23:35:27.238Z info: Method: GET, URL: /newsposts
+2023-10-06T23:39:23.477Z info: Method: GET, URL: /newsposts
+2023-10-06T23:39:24.294Z info: Method: GET, URL: /newsposts
+2023-10-06T23:39:51.211Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:39:51.222Z warn: ValidationError: must have required property 'createdAt'
+2023-10-06T23:40:02.401Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:40:02.411Z error: Message: Cannot read properties of undefined (reading 'user_id'), Stack: TypeError: Cannot read properties of undefined (reading 'user_id')
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:65:186)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T23:40:14.813Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:40:14.823Z error: Message: Cannot read properties of undefined (reading 'user'), Stack: TypeError: Cannot read properties of undefined (reading 'user')
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:65:186)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T23:40:25.080Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:40:25.091Z error: Message: Cannot read properties of undefined (reading 'id'), Stack: TypeError: Cannot read properties of undefined (reading 'id')
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:65:186)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T23:40:31.533Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:40:34.632Z info: Method: GET, URL: /newsposts
+2023-10-06T23:41:59.684Z info: Method: GET, URL: /newsposts
+2023-10-06T23:42:06.131Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:42:06.149Z error: Message: null значення в стовпці "title" відношення "newspost" порушує not-null обмеження, Stack: QueryFailedError: null значення в стовпці "title" відношення "newspost" порушує not-null обмеження
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InsertQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\InsertQueryBuilder.js:106:33)
+    at async NewspostsRepository.createNewspost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:28:30)
+    at async NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:65:34)
+2023-10-06T23:42:37.522Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:42:47.273Z info: Method: GET, URL: /newsposts
+2023-10-06T23:45:26.114Z info: Method: GET, URL: /newsposts
+2023-10-06T23:45:30.497Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:45:35.837Z info: Method: GET, URL: /newsposts
+2023-10-06T23:46:14.217Z info: Method: GET, URL: /newsposts
+2023-10-06T23:46:15.200Z info: Method: GET, URL: /newsposts
+2023-10-06T23:46:15.839Z info: Method: GET, URL: /newsposts
+2023-10-06T23:46:36.632Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T23:46:36.643Z warn: ValidationError: must have required property 'author'
+2023-10-06T23:47:39.771Z info: Method: GET, URL: /newsposts/a94a397d-ea51-4a93-bd1d-2cf1c332cd25
+2023-10-06T23:47:48.176Z info: Method: GET, URL: /newsposts
+2023-10-07T09:24:13.526Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-07T09:24:36.278Z info: Method: GET, URL: /newsposts
+2023-10-07T09:25:10.592Z info: Method: GET, URL: /newsposts
+2023-10-07T09:27:11.211Z info: Method: GET, URL: /newsposts
+2023-10-07T09:27:39.199Z info: Method: GET, URL: /newsposts
+2023-10-07T09:27:57.977Z info: Method: GET, URL: /newsposts
+2023-10-07T09:28:31.848Z info: Method: GET, URL: /newsposts
+2023-10-07T09:42:32.817Z info: Method: GET, URL: /newsposts
+2023-10-07T09:42:55.904Z info: Method: GET, URL: /newsposts
+2023-10-07T09:43:29.511Z info: Method: GET, URL: /newsposts
+2023-10-07T09:44:42.520Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T09:44:46.724Z info: Method: GET, URL: /newsposts
+2023-10-07T09:45:14.169Z info: Method: GET, URL: /newsposts
+2023-10-07T09:45:16.618Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T09:45:22.037Z info: Method: GET, URL: /newsposts
+2023-10-07T09:51:45.456Z info: Method: GET, URL: /newsposts
+2023-10-07T09:51:49.868Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T09:51:49.874Z error: Message: this.newsposts.createNewspost is not a function, Stack: TypeError: this.newsposts.createNewspost is not a function
+    at NewspostsService.create (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:29:35)
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:65:62)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T09:52:02.018Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T09:52:02.028Z error: Message: this.newsposts.createNewspost is not a function, Stack: TypeError: this.newsposts.createNewspost is not a function
+    at NewspostsService.create (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:29:35)
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:65:62)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T09:53:20.172Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T09:53:25.098Z info: Method: GET, URL: /newsposts
+2023-10-07T09:54:05.325Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T09:54:25.341Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T09:54:30.319Z info: Method: GET, URL: /newsposts
+2023-10-07T09:55:32.294Z info: Method: GET, URL: /newsposts
+2023-10-07T09:55:32.317Z error: Message: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle, Stack: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:271:14)
+    at ServerResponse.send (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:162:21)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:30:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-07T09:55:40.346Z info: Method: GET, URL: /newsposts
+2023-10-07T10:01:41.314Z info: Method: GET, URL: /newsposts
+2023-10-07T10:01:45.766Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:01:45.773Z error: Message: request is not defined, Stack: ReferenceError: request is not defined
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:65:150)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:01:58.300Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:02:00.922Z info: Method: GET, URL: /newsposts
+2023-10-07T10:02:19.400Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T10:02:21.546Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-07T10:02:42.260Z info: Method: GET, URL: /newsposts
+2023-10-07T10:02:46.041Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:03:14.143Z info: Method: GET, URL: /newsposts
+2023-10-07T10:04:46.362Z info: Method: GET, URL: /newsposts
+2023-10-07T10:05:22.837Z info: Method: GET, URL: /newsposts
+2023-10-07T10:05:26.221Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:05:28.547Z info: Method: GET, URL: /newsposts
+2023-10-07T10:05:32.929Z info: Method: GET, URL: /newsposts
+2023-10-07T10:06:18.367Z info: Method: GET, URL: /newsposts
+2023-10-07T10:06:22.397Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:06:39.061Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:07:10.573Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:07:44.460Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:08:07.166Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:08:07.177Z error: Message: Found non-callable @@iterator, Stack: TypeError: Found non-callable @@iterator
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:25)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:08:11.307Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:08:11.309Z error: Message: Found non-callable @@iterator, Stack: TypeError: Found non-callable @@iterator
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:25)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:08:26.084Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:08:26.095Z error: Message: object is not iterable (cannot read property Symbol(Symbol.iterator)), Stack: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:35)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:08:38.699Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:08:38.709Z error: Message: Found non-callable @@iterator, Stack: TypeError: Found non-callable @@iterator
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:25)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:08:46.763Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:09:03.721Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:10:23.735Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:10:23.746Z error: Message: object is not iterable (cannot read property Symbol(Symbol.iterator)), Stack: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:32)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:12:15.154Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:12:15.165Z error: Message: object is not iterable (cannot read property Symbol(Symbol.iterator)), Stack: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:32)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:12:18.333Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:12:18.336Z error: Message: object is not iterable (cannot read property Symbol(Symbol.iterator)), Stack: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:32)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:12:37.543Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:12:48.757Z info: Method: GET, URL: /newsposts
+2023-10-07T10:13:31.225Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T10:13:33.445Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-07T10:13:49.392Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:13:52.528Z info: Method: GET, URL: /newsposts
+2023-10-07T10:39:00.901Z info: Method: GET, URL: /newsposts
+2023-10-07T10:40:03.142Z info: Method: GET, URL: /newsposts
+2023-10-07T10:42:29.945Z info: Method: GET, URL: /newsposts
+2023-10-07T10:42:37.190Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:44:23.650Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:44:48.551Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:45:29.490Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:46:27.585Z info: Method: GET, URL: /newsposts
+2023-10-07T10:46:35.607Z info: Method: GET, URL: /newsposts/a94a397d-ea51-4a93-bd1d-2cf1c332cd25
+2023-10-07T10:48:59.316Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:49:47.483Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:50:14.885Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:50:31.156Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:52:24.776Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:52:24.786Z error: Message: Found non-callable @@iterator, Stack: TypeError: Found non-callable @@iterator
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:61:25)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T10:52:32.332Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:56:04.766Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:59:03.733Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:59:19.521Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:59:20.818Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:59:39.360Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T10:59:39.397Z error: Message: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle, Stack: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:271:14)
+    at ServerResponse.send (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:162:21)
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:68:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-07T10:59:47.427Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T11:00:11.049Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T11:28:21.454Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T11:28:38.104Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T11:29:41.875Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T11:33:43.526Z info: Method: GET, URL: /newsposts
+2023-10-07T11:33:43.537Z error: Message: this.newsposts.getAllNewsposts is not a function, Stack: TypeError: this.newsposts.getAllNewsposts is not a function
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:29:59)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T11:35:27.684Z info: Method: GET, URL: /newsposts
+2023-10-07T11:35:27.707Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:42:31)
+2023-10-07T11:35:56.709Z info: Method: GET, URL: /newsposts
+2023-10-07T11:40:58.857Z info: Method: GET, URL: /newsposts/1
+2023-10-07T11:43:34.960Z info: Method: GET, URL: /newsposts/1
+2023-10-07T11:43:47.702Z info: Method: GET, URL: /newsposts/2
+2023-10-07T11:43:50.381Z info: Method: GET, URL: /newsposts/4
+2023-10-07T11:43:52.951Z info: Method: GET, URL: /newsposts/5
+2023-10-07T11:44:30.662Z info: Method: GET, URL: /newsposts/5
+2023-10-07T11:44:48.286Z info: Method: GET, URL: /newsposts
+2023-10-07T11:44:53.376Z info: Method: GET, URL: /newsposts/5
+2023-10-07T11:45:05.888Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:45:43.822Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:45:54.175Z info: Method: GET, URL: /newsposts
+2023-10-07T11:45:56.962Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:46:15.252Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:46:27.837Z info: Method: GET, URL: /newsposts
+2023-10-07T11:46:32.399Z info: Method: GET, URL: /newsposts
+2023-10-07T11:46:37.188Z info: Method: GET, URL: /newsposts
+2023-10-07T11:46:37.973Z info: Method: GET, URL: /newsposts
+2023-10-07T11:46:43.402Z info: Method: GET, URL: /newsposts
+2023-10-07T11:46:50.373Z info: Method: GET, URL: /newsposts
+2023-10-07T11:47:00.922Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T11:47:03.382Z info: Method: GET, URL: /newsposts
+2023-10-07T11:47:11.328Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:47:31.570Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:48:28.305Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:48:49.113Z info: Method: GET, URL: /newsposts/3
+2023-10-07T11:54:40.702Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:54:40.759Z error: Message: таблиця "newsposts" відсутня в реченні FROM, Stack: QueryFailedError: таблиця "newsposts" відсутня в реченні FROM
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:83:33)
+    at async NewsController.updatePost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:70:37)
+2023-10-07T11:55:42.364Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:55:42.381Z error: Message: таблиця "newsposts" відсутня в реченні FROM, Stack: QueryFailedError: таблиця "newsposts" відсутня в реченні FROM
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:83:33)
+    at async NewsController.updatePost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:70:37)
+2023-10-07T11:56:20.470Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:56:20.487Z error: Message: таблиця "newsposts" відсутня в реченні FROM, Stack: QueryFailedError: таблиця "newsposts" відсутня в реченні FROM
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:83:33)
+    at async NewsController.updatePost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:70:41)
+2023-10-07T11:56:34.123Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:56:34.148Z error: Message: таблиця "newsposts" відсутня в реченні FROM, Stack: QueryFailedError: таблиця "newsposts" відсутня в реченні FROM
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:83:33)
+    at async NewsController.updatePost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:71:41)
+2023-10-07T11:57:01.691Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:57:01.718Z error: Message: таблиця "newsposts" відсутня в реченні FROM, Stack: QueryFailedError: таблиця "newsposts" відсутня в реченні FROM
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:83:33)
+    at async NewsController.updatePost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:71:41)
+2023-10-07T11:57:38.290Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:57:49.316Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:57:55.330Z info: Method: GET, URL: /newsposts/1
+2023-10-07T11:57:55.347Z error: Message: в елементі речення FROM неприпустиме посилання на таблицю "newspost", Stack: QueryFailedError: в елементі речення FROM неприпустиме посилання на таблицю "newspost"
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-07T11:58:09.692Z info: Method: GET, URL: /newsposts/1
+2023-10-07T11:58:24.530Z info: Method: GET, URL: /newsposts/1
+2023-10-07T11:58:24.552Z error: Message: в елементі речення FROM неприпустиме посилання на таблицю "newspost", Stack: QueryFailedError: в елементі речення FROM неприпустиме посилання на таблицю "newspost"
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2034:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getOne (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:711:25)
+    at async NewsController.getPostById (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:42:30)
+2023-10-07T11:58:29.797Z info: Method: GET, URL: /newsposts/1
+2023-10-07T11:58:33.964Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:59:09.712Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T11:59:16.676Z info: Method: GET, URL: /newsposts
+2023-10-07T12:00:00.457Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:00:14.892Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:00:14.921Z error: Message: Invalid status code: 1, Stack: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 1
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at ServerResponse.end (node:_http_outgoing:1035:10)
+    at ServerResponse.end (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express-session\index.js:359:19)
+    at ServerResponse.send (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:232:10)
+    at NewsController.updatePost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:73:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-07T12:00:24.549Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:01:42.680Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:03:28.555Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:03:28.580Z error: Message: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle, Stack: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:271:14)
+    at ServerResponse.send (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\response.js:162:21)
+    at NewsController.updatePost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:73:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-10-07T12:03:46.610Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:04:10.350Z info: Method: PUT, URL: /newsposts/3, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:04:17.257Z info: Method: GET, URL: /newsposts
+2023-10-07T12:04:43.190Z info: Method: GET, URL: /newsposts&page=1&size=5
+2023-10-07T12:07:29.495Z info: Method: GET, URL: /newsposts?page=1?size=5
+2023-10-07T12:07:35.414Z info: Method: GET, URL: /newsposts?page=2?size=5
+2023-10-07T12:08:54.791Z info: Method: GET, URL: /newsposts?_page=1&size=5
+2023-10-07T12:08:59.193Z info: Method: GET, URL: /newsposts?_page=2&size=5
+2023-10-07T12:09:03.734Z info: Method: GET, URL: /newsposts?_page=2&_size=5
+2023-10-07T12:09:04.554Z info: Method: GET, URL: /newsposts?_page=2&_size=5
+2023-10-07T12:09:11.949Z info: Method: GET, URL: /newsposts?_page=2&_size=5
+2023-10-07T12:10:28.531Z info: Method: GET, URL: /newsposts?size=5=2&page=1
+2023-10-07T12:10:30.760Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:10:39.691Z info: Method: GET, URL: /newsposts?size=20&page=1
+2023-10-07T12:10:43.566Z info: Method: GET, URL: /newsposts?size=11&page=1
+2023-10-07T12:10:48.429Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:10:51.584Z info: Method: GET, URL: /newsposts?size=11&page=1
+2023-10-07T12:10:54.813Z info: Method: GET, URL: /newsposts?size=1&page=1
+2023-10-07T12:11:00.370Z info: Method: GET, URL: /newsposts?size=10&page=1
+2023-10-07T12:11:03.927Z info: Method: GET, URL: /newsposts?size=6&page=1
+2023-10-07T12:11:13.252Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:11:15.503Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:11:20.894Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:11:24.918Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:11:29.910Z info: Method: GET, URL: /newsposts?size=5&page=3
+2023-10-07T12:11:42.301Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:12:10.275Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:12:50.087Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:12:56.922Z info: Method: GET, URL: /newsposts/1
+2023-10-07T12:13:04.489Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-07T12:13:07.882Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:13:14.233Z info: Method: GET, URL: /newsposts?size=5&page=3
+2023-10-07T12:13:17.413Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:13:24.772Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:17:45.804Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:17:45.814Z warn: Error: Unauthorized
+2023-10-07T12:17:49.354Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-07T12:17:57.414Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:18:10.452Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:18:14.944Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:18:39.736Z info: Method: GET, URL: /newsposts/1
+2023-10-07T12:18:55.485Z info: Method: GET, URL: /newsposts/1
+2023-10-07T12:18:57.044Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"WOOOOW","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:18:59.928Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"Wwwwww","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:19:02.470Z info: Method: GET, URL: /newsposts/1
+2023-10-07T12:19:13.315Z info: Method: DELETE, URL: /newsposts/1
+2023-10-07T12:20:41.479Z info: Method: POST, URL: /auth/register, Body: {"email":"test1@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T12:20:44.556Z info: Method: POST, URL: /auth/login, Body: {"email":"test1@gmail.com","password":"test"}
+2023-10-07T12:21:06.850Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-07T12:21:08.832Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:21:12.765Z info: Method: GET, URL: /newsposts?size=5&page=3
+2023-10-07T12:21:15.649Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:21:33.307Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:22:39.582Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:22:48.307Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-07T12:22:55.616Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:23:08.633Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:23:47.773Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:23:49.986Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:24:11.058Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:24:13.739Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:24:15.762Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:24:16.211Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:24:16.869Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:24:30.534Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:24:31.295Z info: Method: GET, URL: /newsposts/22
+2023-10-07T12:24:33.799Z info: Method: GET, URL: /newsposts/1
+2023-10-07T12:24:36.453Z info: Method: GET, URL: /newsposts/1
+2023-10-07T12:24:38.787Z info: Method: GET, URL: /newsposts/2
+2023-10-07T12:24:41.734Z info: Method: GET, URL: /newsposts/1
+2023-10-07T12:24:46.835Z info: Method: GET, URL: /newsposts/4
+2023-10-07T12:25:14.517Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:25:32.927Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-07T12:25:37.276Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:25:41.710Z info: Method: GET, URL: /newsposts/4
+2023-10-07T12:25:42.481Z info: Method: GET, URL: /newsposts/4
+2023-10-07T12:26:44.413Z info: Method: GET, URL: /newsposts/4
+2023-10-07T12:26:48.622Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:26:52.367Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-07T12:26:54.765Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:27:05.815Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"Wwwwww","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:27:11.640Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"Wwwwww","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:27:22.634Z info: Method: PUT, URL: /newsposts/7, Body: {"title":"Wwwwww","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T12:27:25.621Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:27:28.275Z info: Method: GET, URL: /newsposts?size=5&page0
+2023-10-07T12:27:35.198Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:30:20.675Z info: Method: POST, URL: /auth/register, Body: {"email":"test1@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T12:30:24.137Z info: Method: POST, URL: /auth/login, Body: {"email":"test1@gmail.com","password":"test"}
+2023-10-07T12:30:44.267Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:30:49.247Z info: Method: GET, URL: /newsposts/4
+2023-10-07T12:31:00.490Z info: Method: GET, URL: /newsposts/4
+2023-10-07T12:31:13.553Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:31:16.412Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:31:22.101Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:31:24.007Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:31:26.707Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:31:29.080Z info: Method: GET, URL: /newsposts
+2023-10-07T12:31:30.095Z info: Method: GET, URL: /newsposts
+2023-10-07T12:31:39.187Z info: Method: GET, URL: /newsposts
+2023-10-07T12:31:55.372Z info: Method: GET, URL: /newsposts?size=5&page=-1
+2023-10-07T12:32:19.706Z info: Method: GET, URL: /newsposts?size=5&page=-1
+2023-10-07T12:32:19.735Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T12:32:27.972Z info: Method: GET, URL: /newsposts?size=5&page=-1
+2023-10-07T12:32:31.642Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:32:34.766Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:32:35.952Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:32:40.930Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:32:44.100Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:32:46.829Z info: Method: GET, URL: /newsposts?size=5&page=-2
+2023-10-07T12:32:52.827Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:33:00.652Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:33:09.919Z info: Method: GET, URL: /newsposts?size=5&page=0
+2023-10-07T12:33:09.940Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T12:33:14.553Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:33:46.759Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:33:48.599Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:33:52.105Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:34:37.434Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:34:39.918Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:34:41.906Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:35:33.550Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:36:01.907Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:36:06.082Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:39:22.781Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:39:28.265Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:39:34.946Z info: Method: GET, URL: /newsposts?size=5&page=2
+2023-10-07T12:39:39.153Z info: Method: GET, URL: /newsposts?size=5&page=1
+2023-10-07T12:39:42.176Z info: Method: GET, URL: /newsposts?size=8&page=1
+2023-10-07T12:41:06.341Z info: Method: GET, URL: /newsposts?size=8&page=1
+2023-10-07T12:41:08.133Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:41:21.950Z info: Method: GET, URL: /newsposts?size=8&page=1
+2023-10-07T12:49:15.353Z info: Method: GET, URL: /newsposts?size=8&page=1
+2023-10-07T12:49:25.322Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:49:37.498Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T12:49:39.984Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-07T12:49:51.332Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:50:13.428Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:51:16.261Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T12:51:31.844Z info: Method: GET, URL: /newsposts?size=8&page=1
+2023-10-07T12:51:37.096Z info: Method: GET, URL: /newsposts?size=11&page=1
+2023-10-07T13:07:55.517Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:08:20.113Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:08:39.906Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:09:00.735Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:09:27.687Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:09:48.906Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:11:04.137Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:11:40.091Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:11:54.555Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:11:54.567Z error: Message: Cannot read properties of undefined (reading 'user_id'), Stack: TypeError: Cannot read properties of undefined (reading 'user_id')
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:56:180)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T13:13:31.335Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:13:31.401Z error: Message: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values., Stack: UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.createUpdateExpression (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:430:19)
+    at UpdateQueryBuilder.getQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:34:21)
+    at UpdateQueryBuilder.getQueryAndParameters (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryBuilder.js:274:28)
+    at UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:81:50)
+    at updateSubject (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:380:63)
+    at Array.map (<anonymous>)
+    at SubjectExecutor.executeUpdateOperations (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:423:34)
+    at SubjectExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:99:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async EntityPersistExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\EntityPersistExecutor.js:140:21)
+2023-10-07T13:14:44.588Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:14:44.634Z error: Message: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values., Stack: UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.createUpdateExpression (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:430:19)
+    at UpdateQueryBuilder.getQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:34:21)
+    at UpdateQueryBuilder.getQueryAndParameters (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryBuilder.js:274:28)
+    at UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:81:50)
+    at updateSubject (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:380:63)
+    at Array.map (<anonymous>)
+    at SubjectExecutor.executeUpdateOperations (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:423:34)
+    at SubjectExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:99:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async EntityPersistExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\EntityPersistExecutor.js:140:21)
+2023-10-07T13:14:45.977Z info: Method: GET, URL: /newsposts?size=11&page=1
+2023-10-07T13:14:52.287Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T13:15:37.890Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:17:14.036Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:18:59.043Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:20:53.607Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:21:51.476Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:22:00.926Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:23:03.574Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:24:47.011Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:27:58.249Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:29:05.153Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:29:22.832Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:29:37.134Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:29:54.303Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:30:04.450Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:30:05.113Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:30:06.034Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:31:50.699Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:32:09.772Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:32:38.045Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:32:51.550Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:32:51.560Z error: Message: Cannot read properties of undefined (reading 'user_id'), Stack: TypeError: Cannot read properties of undefined (reading 'user_id')
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:56:183)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-07T13:33:02.401Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:34:18.449Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:34:47.385Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:35:03.113Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:35:25.977Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:36:28.793Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:36:38.635Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:38:14.265Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T13:38:18.640Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-07T13:39:10.957Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:40:12.456Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:42:18.800Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:42:23.254Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T13:45:20.075Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T13:45:22.839Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:45:22.857Z error: Message: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values., Stack: UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.createUpdateExpression (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:430:19)
+    at UpdateQueryBuilder.getQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:34:21)
+    at UpdateQueryBuilder.getQueryAndParameters (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryBuilder.js:274:28)
+    at UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:81:50)
+    at updateSubject (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:380:63)
+    at Array.map (<anonymous>)
+    at SubjectExecutor.executeUpdateOperations (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:423:34)
+    at SubjectExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:99:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async EntityPersistExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\EntityPersistExecutor.js:140:21)
+2023-10-07T13:45:41.979Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:45:42.007Z error: Message: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values., Stack: UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.createUpdateExpression (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:430:19)
+    at UpdateQueryBuilder.getQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:34:21)
+    at UpdateQueryBuilder.getQueryAndParameters (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryBuilder.js:274:28)
+    at UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:81:50)
+    at updateSubject (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:380:63)
+    at Array.map (<anonymous>)
+    at SubjectExecutor.executeUpdateOperations (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:423:34)
+    at SubjectExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:99:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async EntityPersistExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\EntityPersistExecutor.js:140:21)
+2023-10-07T13:46:17.836Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:46:17.859Z error: Message: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values., Stack: UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.createUpdateExpression (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:430:19)
+    at UpdateQueryBuilder.getQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:34:21)
+    at UpdateQueryBuilder.getQueryAndParameters (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryBuilder.js:274:28)
+    at UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:81:50)
+    at updateSubject (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:380:63)
+    at Array.map (<anonymous>)
+    at SubjectExecutor.executeUpdateOperations (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:423:34)
+    at SubjectExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:99:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async EntityPersistExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\EntityPersistExecutor.js:140:21)
+2023-10-07T13:46:18.676Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:46:18.680Z error: Message: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values., Stack: UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.createUpdateExpression (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:430:19)
+    at UpdateQueryBuilder.getQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:34:21)
+    at UpdateQueryBuilder.getQueryAndParameters (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryBuilder.js:274:28)
+    at UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:81:50)
+    at updateSubject (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:380:63)
+    at Array.map (<anonymous>)
+    at SubjectExecutor.executeUpdateOperations (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:423:34)
+    at SubjectExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:99:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async EntityPersistExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\EntityPersistExecutor.js:140:21)
+2023-10-07T13:46:31.636Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:46:31.669Z error: Message: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values., Stack: UpdateValuesMissingError: Cannot perform update query because update values are not defined. Call "qb.set(...)" method to specify updated values.
+    at UpdateQueryBuilder.createUpdateExpression (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:430:19)
+    at UpdateQueryBuilder.getQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:34:21)
+    at UpdateQueryBuilder.getQueryAndParameters (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryBuilder.js:274:28)
+    at UpdateQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\UpdateQueryBuilder.js:81:50)
+    at updateSubject (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:380:63)
+    at Array.map (<anonymous>)
+    at SubjectExecutor.executeUpdateOperations (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:423:34)
+    at SubjectExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\SubjectExecutor.js:99:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async EntityPersistExecutor.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\persistence\EntityPersistExecutor.js:140:21)
+2023-10-07T13:46:48.644Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:49:09.156Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:49:35.568Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:50:26.909Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:51:56.149Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T13:51:58.752Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-07T13:52:10.624Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T13:52:14.474Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:52:32.649Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T13:52:37.102Z info: Method: POST, URL: /auth/register, Body: {"email":"test1@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T13:52:39.523Z info: Method: POST, URL: /auth/login, Body: {"email":"test1@gmail.com","password":"test"}
+2023-10-07T13:52:50.336Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T13:52:53.972Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:52:57.183Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T13:53:02.811Z info: Method: GET, URL: /newsposts/4
+2023-10-07T13:53:06.383Z info: Method: GET, URL: /newsposts/1
+2023-10-07T13:53:11.900Z info: Method: GET, URL: /newsposts/2
+2023-10-07T13:54:02.940Z info: Method: GET, URL: /newsposts/2
+2023-10-07T13:54:08.238Z info: Method: GET, URL: /newsposts/1
+2023-10-07T13:54:35.119Z info: Method: GET, URL: /newsposts/1
+2023-10-07T13:54:37.851Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T13:54:41.569Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T13:54:46.950Z info: Method: GET, URL: /newsposts/1
+2023-10-07T13:54:49.061Z info: Method: GET, URL: /newsposts/3
+2023-10-07T13:57:36.792Z info: Method: GET, URL: /newsposts/3
+2023-10-07T14:00:08.537Z info: Method: GET, URL: /newsposts/3
+2023-10-07T14:00:10.653Z info: Method: POST, URL: /newsposts, Body: {"title":"First user","text":"First user","genre":"Other","isPrivate":false}
+2023-10-07T14:00:19.850Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T14:02:16.884Z info: Method: POST, URL: /auth/register, Body: {"email":"test2@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T14:02:19.772Z info: Method: POST, URL: /auth/login, Body: {"email":"test2@gmail.com","password":"test"}
+2023-10-07T14:02:36.940Z info: Method: POST, URL: /newsposts, Body: {"title":"Second user","text":"Second user","genre":"Other","isPrivate":false}
+2023-10-07T14:02:41.242Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T14:02:55.191Z info: Method: GET, URL: /newsposts/3
+2023-10-07T14:02:58.382Z info: Method: GET, URL: /newsposts/1
+2023-10-07T14:03:00.653Z info: Method: GET, URL: /newsposts/5
+2023-10-07T14:03:03.316Z info: Method: GET, URL: /newsposts/6
+2023-10-07T14:03:07.273Z info: Method: GET, URL: /newsposts/5
+2023-10-07T14:03:17.132Z info: Method: PUT, URL: /newsposts/7, Body: {"title":"Wwwwww","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T14:03:23.322Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T14:03:29.894Z info: Method: PUT, URL: /newsposts/1, Body: {"title":"Wwwwww","text":"HELLOOOOOO","genre":"Other","isPrivate":true}
+2023-10-07T14:03:33.056Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T14:04:47.014Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:04:47.026Z warn: Error: Unauthorized
+2023-10-07T14:04:47.030Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:04:47.033Z warn: Error: Unauthorized
+2023-10-07T14:05:29.843Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T14:05:34.895Z info: Method: POST, URL: /auth/register, Body: {"email":"test2@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T14:05:37.735Z info: Method: POST, URL: /auth/register, Body: {"email":"test3@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-07T14:05:37.848Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:05:37.851Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:05:37.863Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:05:37.900Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:05:46.016Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:05:46.018Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:05:46.023Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:05:46.027Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:05:47.384Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:05:47.386Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:05:47.391Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:05:47.397Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:06:00.731Z info: Method: GET, URL: /newsposts?size=55&page=1
+2023-10-07T14:06:02.827Z info: Method: GET, URL: /newsposts
+2023-10-07T14:06:02.834Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:06:04.140Z info: Method: GET, URL: /newsposts
+2023-10-07T14:06:04.143Z error: Message: OFFSET повинен бути не негативним, Stack: QueryFailedError: OFFSET повинен бути не негативним
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SelectQueryBuilder.loadRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:2183:25)
+    at async SelectQueryBuilder.getRawMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:646:29)
+    at async SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:1973:26)
+    at async SelectQueryBuilder.getRawAndEntities (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:684:29)
+    at async SelectQueryBuilder.getMany (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:750:25)
+    at async NewspostsRepository.getAllNewspostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:34)
+    at async NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:33:31)
+2023-10-07T14:06:27.670Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:27.675Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:30.560Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:30.564Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:33.021Z info: Method: GET, URL: /newsposts/4
+2023-10-07T14:06:33.025Z info: Method: GET, URL: /newsposts/4
+2023-10-07T14:06:34.790Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:34.794Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:36.457Z info: Method: GET, URL: /newsposts?page=1&size=3
+2023-10-07T14:06:37.460Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:50.488Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:50.508Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:53.308Z info: Method: GET, URL: /newsposts?page=1&size=3
+2023-10-07T14:06:54.124Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:06:56.597Z info: Method: GET, URL: /newsposts?page=1&size=3
+2023-10-07T14:06:57.382Z info: Method: GET, URL: /newsposts?page=0&size=3
+2023-10-07T14:07:58.623Z info: Method: GET, URL: /newsposts?page=1&size=3
+2023-10-07T14:08:00.004Z info: Method: GET, URL: /newsposts?page=0&size=3

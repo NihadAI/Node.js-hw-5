@@ -1,0 +1,268 @@
+2023-10-06T16:37:26.906Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T16:43:14.552Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T16:45:23.616Z info: Method: POST, URL: /auth/register, Body: {"email":"test@gmail.com","password":"test","confirmPassword":"test"}
+2023-10-06T16:45:37.017Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T16:46:01.069Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T16:47:09.262Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T16:47:31.875Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T16:47:50.480Z info: Method: POST, URL: /auth/login, Body: {"email":"tes1t@gmail.com","password":"test"}
+2023-10-06T16:48:05.368Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T17:22:11.114Z info: Method: GET, URL: /newsposts
+2023-10-06T17:22:11.125Z warn: Error: Unauthorized
+2023-10-06T17:22:14.554Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T17:22:40.500Z info: Method: GET, URL: /newsposts
+2023-10-06T17:28:40.641Z info: Method: GET, URL: /newsposts
+2023-10-06T17:44:18.847Z info: Method: GET, URL: /newsposts
+2023-10-06T17:44:18.858Z error: Message: this.newsposts.getAllPostsPaged is not a function, Stack: TypeError: this.newsposts.getAllPostsPaged is not a function
+    at NewspostsService.getAllPostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:24:35)
+    at NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:39:59)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T17:44:55.328Z info: Method: GET, URL: /newsposts
+2023-10-06T17:44:55.350Z error: Message: Relation with property path user in entity was not found., Stack: TypeORMError: Relation with property path user in entity was not found.
+    at JoinAttribute.getValue (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:109:23)
+    at get relation [as relation] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:111:53)
+    at get metadata [as metadata] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:122:18)
+    at SelectQueryBuilder.join (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:963:53)
+    at SelectQueryBuilder.leftJoin (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:195:14)
+    at SelectQueryBuilder.leftJoinAndSelect (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:215:14)
+    at NewspostsRepository.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:22:18)
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:26:59)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+2023-10-06T17:48:25.808Z info: Method: GET, URL: /newsposts
+2023-10-06T17:48:25.818Z error: Message: this.newsposts.getAllPostsPaged is not a function, Stack: TypeError: this.newsposts.getAllPostsPaged is not a function
+    at NewspostsService.getAllPostsPaged (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:24:35)
+    at NewsController.getAllPostsQuery (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:39:59)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T17:48:43.495Z info: Method: GET, URL: /newsposts
+2023-10-06T17:48:44.621Z info: Method: GET, URL: /newsposts
+2023-10-06T18:21:25.155Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:21:25.166Z error: Message: this.postValidator is not a function, Stack: TypeError: this.postValidator is not a function
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:58:38)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T18:24:11.220Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:24:11.230Z error: Message: this.postValidator is not a function, Stack: TypeError: this.postValidator is not a function
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:58:38)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T18:24:12.670Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:24:12.672Z error: Message: this.postValidator is not a function, Stack: TypeError: this.postValidator is not a function
+    at NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:58:38)
+    at Layer.handle [as handle_request] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\express\lib\router\route.js:144:13)
+    at Immediate._onImmediate (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\middleware\passportMiddleware.js:27:17)
+    at process.processImmediate (node:internal/timers:476:21)
+2023-10-06T18:25:34.669Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:26:42.072Z info: Method: GET, URL: /newsposts
+2023-10-06T18:27:56.602Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:28:00.885Z info: Method: GET, URL: /newsposts
+2023-10-06T18:30:18.323Z info: Method: GET, URL: /newsposts
+2023-10-06T18:30:37.066Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:30:39.649Z info: Method: GET, URL: /newsposts
+2023-10-06T18:34:22.635Z info: Method: GET, URL: /newsposts
+2023-10-06T18:34:25.835Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:34:27.898Z info: Method: GET, URL: /newsposts
+2023-10-06T18:35:38.986Z info: Method: GET, URL: /newsposts
+2023-10-06T18:35:41.770Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:35:43.745Z info: Method: GET, URL: /newsposts
+2023-10-06T18:42:23.587Z info: Method: GET, URL: /newsposts
+2023-10-06T18:42:28.830Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:42:30.761Z info: Method: GET, URL: /newsposts
+2023-10-06T18:49:15.093Z info: Method: GET, URL: /newsposts
+2023-10-06T18:49:18.359Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:49:20.747Z info: Method: GET, URL: /newsposts
+2023-10-06T18:50:48.586Z info: Method: GET, URL: /newsposts
+2023-10-06T18:50:51.209Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:50:52.900Z info: Method: GET, URL: /newsposts
+2023-10-06T18:52:19.551Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:52:21.834Z info: Method: GET, URL: /newsposts
+2023-10-06T18:54:29.750Z info: Method: GET, URL: /newsposts
+2023-10-06T18:54:37.132Z info: Method: POST, URL: /newsposts
+2023-10-06T18:54:37.148Z error: Message: null значення в стовпці "title" відношення "newspost" порушує not-null обмеження, Stack: QueryFailedError: null значення в стовпці "title" відношення "newspost" порушує not-null обмеження
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InsertQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\InsertQueryBuilder.js:106:33)
+    at async NewspostsRepository.createNewspost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:27:30)
+    at async NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:58:33)
+2023-10-06T18:54:51.685Z error: Message: Unexpected token } in JSON at position 150, Stack: SyntaxError: Unexpected token } in JSON at position 150
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+2023-10-06T18:54:56.243Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other"}
+2023-10-06T18:54:56.291Z error: Message: null значення в стовпці "isPrivate" відношення "newspost" порушує not-null обмеження, Stack: QueryFailedError: null значення в стовпці "isPrivate" відношення "newspost" порушує not-null обмеження
+    at PostgresQueryRunner.query (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\driver\postgres\PostgresQueryRunner.js:211:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InsertQueryBuilder.execute (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\InsertQueryBuilder.js:106:33)
+    at async NewspostsRepository.createNewspost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:27:30)
+    at async NewsController.createPost (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:58:33)
+2023-10-06T18:55:00.603Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:55:06.822Z info: Method: GET, URL: /newsposts
+2023-10-06T18:59:41.716Z info: Method: GET, URL: /newsposts
+2023-10-06T18:59:42.609Z info: Method: GET, URL: /newsposts
+2023-10-06T18:59:43.255Z info: Method: GET, URL: /newsposts
+2023-10-06T18:59:46.622Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T18:59:49.325Z info: Method: GET, URL: /newsposts
+2023-10-06T19:02:32.839Z info: Method: GET, URL: /newsposts
+2023-10-06T19:06:25.016Z info: Method: GET, URL: /newsposts
+2023-10-06T19:06:25.824Z info: Method: GET, URL: /newsposts
+2023-10-06T19:06:52.001Z info: Method: GET, URL: /newsposts
+2023-10-06T19:06:54.916Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T19:06:57.014Z info: Method: GET, URL: /newsposts
+2023-10-06T19:10:40.241Z info: Method: GET, URL: /newsposts
+2023-10-06T19:11:47.417Z info: Method: GET, URL: /newsposts
+2023-10-06T19:11:50.271Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T19:11:52.201Z info: Method: GET, URL: /newsposts
+2023-10-06T19:12:11.806Z info: Method: GET, URL: /newsposts
+2023-10-06T19:12:11.817Z error: Message: "p" alias was not found. Maybe you forgot to join it?, Stack: TypeORMError: "p" alias was not found. Maybe you forgot to join it?
+    at QueryExpressionMap.findAliasByName (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryExpressionMap.js:245:19)
+    at JoinAttribute.getValue (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:97:72)
+    at get relation [as relation] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:111:53)
+    at get metadata [as metadata] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:122:18)
+    at SelectQueryBuilder.join (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:963:53)
+    at SelectQueryBuilder.leftJoin (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:195:14)
+    at SelectQueryBuilder.leftJoinAndSelect (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:215:14)
+    at NewspostsRepository.getAllNewsposts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:21:18)
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:26:59)
+2023-10-06T19:12:38.923Z info: Method: GET, URL: /newsposts
+2023-10-06T19:12:38.934Z error: Message: "p" alias was not found. Maybe you forgot to join it?, Stack: TypeORMError: "p" alias was not found. Maybe you forgot to join it?
+    at QueryExpressionMap.findAliasByName (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryExpressionMap.js:245:19)
+    at JoinAttribute.getValue (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:97:72)
+    at get relation [as relation] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:111:53)
+    at get metadata [as metadata] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:122:18)
+    at SelectQueryBuilder.join (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:963:53)
+    at SelectQueryBuilder.innerJoin (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:186:14)
+    at SelectQueryBuilder.innerJoinAndSelect (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:205:14)
+    at NewspostsRepository.getAllNewsposts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:21:18)
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:26:59)
+2023-10-06T19:12:39.815Z info: Method: GET, URL: /newsposts
+2023-10-06T19:12:39.819Z error: Message: "p" alias was not found. Maybe you forgot to join it?, Stack: TypeORMError: "p" alias was not found. Maybe you forgot to join it?
+    at QueryExpressionMap.findAliasByName (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryExpressionMap.js:245:19)
+    at JoinAttribute.getValue (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:97:72)
+    at get relation [as relation] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:111:53)
+    at get metadata [as metadata] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:122:18)
+    at SelectQueryBuilder.join (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:963:53)
+    at SelectQueryBuilder.innerJoin (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:186:14)
+    at SelectQueryBuilder.innerJoinAndSelect (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:205:14)
+    at NewspostsRepository.getAllNewsposts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:21:18)
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:26:59)
+2023-10-06T19:12:49.804Z info: Method: GET, URL: /newsposts
+2023-10-06T19:12:49.815Z error: Message: "p" alias was not found. Maybe you forgot to join it?, Stack: TypeORMError: "p" alias was not found. Maybe you forgot to join it?
+    at QueryExpressionMap.findAliasByName (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryExpressionMap.js:245:19)
+    at JoinAttribute.getValue (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:97:72)
+    at get relation [as relation] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:111:53)
+    at get metadata [as metadata] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:122:18)
+    at SelectQueryBuilder.join (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:963:53)
+    at SelectQueryBuilder.innerJoin (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:186:14)
+    at SelectQueryBuilder.innerJoinAndSelect (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:205:14)
+    at NewspostsRepository.getAllNewsposts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:21:18)
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:26:59)
+2023-10-06T19:12:51.983Z info: Method: GET, URL: /newsposts
+2023-10-06T19:12:51.986Z error: Message: "p" alias was not found. Maybe you forgot to join it?, Stack: TypeORMError: "p" alias was not found. Maybe you forgot to join it?
+    at QueryExpressionMap.findAliasByName (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryExpressionMap.js:245:19)
+    at JoinAttribute.getValue (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:97:72)
+    at get relation [as relation] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:111:53)
+    at get metadata [as metadata] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:122:18)
+    at SelectQueryBuilder.join (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:963:53)
+    at SelectQueryBuilder.innerJoin (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:186:14)
+    at SelectQueryBuilder.innerJoinAndSelect (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:205:14)
+    at NewspostsRepository.getAllNewsposts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:21:18)
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:26:59)
+2023-10-06T19:13:02.270Z info: Method: GET, URL: /newsposts
+2023-10-06T19:13:02.282Z error: Message: "p" alias was not found. Maybe you forgot to join it?, Stack: TypeORMError: "p" alias was not found. Maybe you forgot to join it?
+    at QueryExpressionMap.findAliasByName (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\QueryExpressionMap.js:245:19)
+    at JoinAttribute.getValue (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:97:72)
+    at get relation [as relation] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:111:53)
+    at get metadata [as metadata] (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\JoinAttribute.js:122:18)
+    at SelectQueryBuilder.join (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:963:53)
+    at SelectQueryBuilder.leftJoin (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:195:14)
+    at SelectQueryBuilder.leftJoinAndSelect (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\node_modules\typeorm\query-builder\SelectQueryBuilder.js:215:14)
+    at NewspostsRepository.getAllNewsposts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\dal\newsposts\newsposts.repository.js:21:18)
+    at NewspostsService.getAll (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\bll\Newsposts.service.js:21:35)
+    at NewsController.getAllPosts (C:\Users\dima6\Desktop\gitlab\homeworks-DanIT\node-js\homework-13\backend\dist\src\controllers\NewsController.js:26:59)
+2023-10-06T19:13:14.068Z info: Method: GET, URL: /newsposts
+2023-10-06T19:17:44.799Z info: Method: GET, URL: /newsposts
+2023-10-06T19:17:47.340Z info: Method: GET, URL: /newsposts
+2023-10-06T19:17:56.596Z info: Method: GET, URL: /newsposts
+2023-10-06T19:18:09.716Z info: Method: GET, URL: /newsposts
+2023-10-06T19:18:55.084Z info: Method: GET, URL: /newsposts
+2023-10-06T19:20:06.543Z info: Method: GET, URL: /newsposts
+2023-10-06T19:20:18.677Z info: Method: GET, URL: /newsposts
+2023-10-06T19:20:19.441Z info: Method: GET, URL: /newsposts
+2023-10-06T19:23:03.325Z info: Method: GET, URL: /newsposts
+2023-10-06T19:23:03.335Z warn: Error: Unauthorized
+2023-10-06T19:23:07.389Z info: Method: POST, URL: /auth/login, Body: {"email":"test@gmail.com","password":"test"}
+2023-10-06T19:23:18.867Z info: Method: GET, URL: /newsposts
+2023-10-06T19:23:18.872Z warn: Error: Unauthorized
+2023-10-06T19:23:21.849Z info: Method: GET, URL: /newsposts
+2023-10-06T19:23:21.852Z warn: Error: Unauthorized
+2023-10-06T19:23:32.974Z info: Method: GET, URL: /newsposts
+2023-10-06T19:23:36.294Z info: Method: GET, URL: /newsposts
+2023-10-06T19:23:36.924Z info: Method: GET, URL: /newsposts
+2023-10-06T19:23:38.541Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T19:23:41.097Z info: Method: GET, URL: /newsposts
+2023-10-06T19:24:48.071Z info: Method: GET, URL: /newsposts
+2023-10-06T19:26:07.282Z info: Method: GET, URL: /newsposts
+2023-10-06T19:27:09.569Z info: Method: GET, URL: /newsposts
+2023-10-06T19:28:01.523Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T19:28:04.274Z info: Method: GET, URL: /newsposts
+2023-10-06T19:28:19.093Z info: Method: GET, URL: /newsposts
+2023-10-06T19:28:20.001Z info: Method: GET, URL: /newsposts
+2023-10-06T19:29:14.827Z info: Method: GET, URL: /newsposts
+2023-10-06T19:30:06.617Z info: Method: GET, URL: /newsposts
+2023-10-06T19:30:08.322Z info: Method: GET, URL: /newsposts
+2023-10-06T19:30:12.301Z info: Method: POST, URL: /newsposts, Body: {"title":"У зоопарку Київі лисичка народила лисеня","text":"В Чернігівському заопарку сталася чудова подія!","genre":"Other","isPrivate":false}
+2023-10-06T19:30:14.808Z info: Method: GET, URL: /newsposts
+2023-10-06T19:32:58.724Z info: Method: GET, URL: /newsposts
+2023-10-06T19:32:59.832Z info: Method: GET, URL: /newsposts
+2023-10-06T19:40:48.417Z info: Method: GET, URL: /newsposts
+2023-10-06T19:40:49.158Z info: Method: GET, URL: /newsposts
+2023-10-06T19:40:49.757Z info: Method: GET, URL: /newsposts
+2023-10-06T19:40:50.172Z info: Method: GET, URL: /newsposts
+2023-10-06T19:40:50.575Z info: Method: GET, URL: /newsposts
+2023-10-06T19:40:50.963Z info: Method: GET, URL: /newsposts
+2023-10-06T19:40:51.341Z info: Method: GET, URL: /newsposts
+2023-10-06T19:43:33.334Z info: Method: GET, URL: /newsposts
+2023-10-06T19:43:34.180Z info: Method: GET, URL: /newsposts
+2023-10-06T19:43:34.672Z info: Method: GET, URL: /newsposts
+2023-10-06T19:44:21.586Z info: Method: GET, URL: /newsposts
+2023-10-06T19:44:46.167Z info: Method: GET, URL: /newsposts
+2023-10-06T19:48:53.328Z info: Method: GET, URL: /newsposts
+2023-10-06T19:48:54.325Z info: Method: GET, URL: /newsposts
+2023-10-06T19:51:39.671Z info: Method: GET, URL: /newsposts
+2023-10-06T19:51:40.820Z info: Method: GET, URL: /newsposts
+2023-10-06T19:51:41.366Z info: Method: GET, URL: /newsposts
+2023-10-06T20:04:23.721Z info: Method: GET, URL: /newsposts
+2023-10-06T20:04:25.027Z info: Method: GET, URL: /newsposts
+2023-10-06T20:18:27.594Z info: Method: GET, URL: /newsposts
+2023-10-06T20:18:28.525Z info: Method: GET, URL: /newsposts
+2023-10-06T20:19:12.074Z info: Method: GET, URL: /newsposts
+2023-10-06T20:19:12.902Z info: Method: GET, URL: /newsposts
+2023-10-06T20:19:13.579Z info: Method: GET, URL: /newsposts
+2023-10-06T20:19:13.923Z info: Method: GET, URL: /newsposts
+2023-10-06T20:25:12.315Z info: Method: GET, URL: /newsposts
+2023-10-06T20:25:13.049Z info: Method: GET, URL: /newsposts
+2023-10-06T20:25:13.484Z info: Method: GET, URL: /newsposts
+2023-10-06T20:25:14.005Z info: Method: GET, URL: /newsposts
